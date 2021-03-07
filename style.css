@@ -16,7 +16,7 @@ body:not(*:root) {
 {
 text-align: center;
 }
-img {
+img.radius {
   border-radius: 50%;
 }
 
