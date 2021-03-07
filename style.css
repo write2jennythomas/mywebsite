@@ -1,6 +1,6 @@
 
 /** By default, use the local font and then fallback to web font. **/
-body,div {
+body,div,img {
   font-family: 'Segoe UI Local', 'Segoe UI Web (West European)';
         max-width: max-content;
         margin: auto;
@@ -11,6 +11,13 @@ body,div {
 body:not(*:root) {
   font-family: 'Segoe UI Web (West European)';
   background-color: #fff;
+}
+.center
+{
+text-align: center;
+}
+img {
+  border-radius: 50%;
 }
 
 .example {
